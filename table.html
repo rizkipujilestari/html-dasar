@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .data, .data tr, .data td {
+            border: 1px solid black;
+            border-collapse: collapse; 
+            font-size: medium;
+            padding: 3px;
+        }
+    </style>
+    <style>
+		td {
+			padding: 1em;
+		}
+	</style>
+</head>
+<body>
+
+    <table>
+		<tbody>
+			<tr>
+				<td>Menu :</td>
+                <td>
+					<a href="index.html">Home</a>
+				</td>
+                <td>
+					<a href="ordered_unordered_list.html">Tugas Ordered dan Undordered List</a>
+				</td>
+				<td>
+					<a href="table.html">Tugas Table</a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+    
+    <h1>Daftar Mahasiswa</h1>
+    <table class="data">
+        <thead>
+            <tr>
+                <td>No.</td>
+                <td>Nama</td>
+                <td>Kelas</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Ahmad</td>
+                <td>2B</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Andika</td>
+                <td>3C</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">kepada mahasiswa tersebut diharap menghadap staff keuangan</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
